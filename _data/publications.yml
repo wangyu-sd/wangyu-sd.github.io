@@ -106,11 +106,7 @@
   venue: "Computers in Biology and Medicine 167, 107666"
   url: "https://doi.org/10.1016/j.compbiomed.2023.107666"
   code: "https://github.com/wangyu-sd/MolCAP"
-  featured: true
-  image: "https://raw.githubusercontent.com/wangyu-sd/MolCAP/main/framework.png"
-  image_alt: "MolCAP framework diagram: chemical reactivity pretraining and prompted molecular representation learning"
-  image_caption: "Framework · MolCAP"
-  image_source: "https://github.com/wangyu-sd/MolCAP/blob/main/framework.png"
+  featured: false
 
 - year: 2023
   title: "MolFPG: Multi-level fingerprint-based Graph Transformer for accurate and robust drug toxicity prediction"

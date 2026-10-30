@@ -34,7 +34,7 @@ My research spans **molecular generation and property-guided optimization**, mol
   <div class="research-theme">
     <h3>Molecular Representation &amp; Property Prediction</h3>
     <p>Chemistry-informed graph representation learning for physicochemical properties and toxicity, incorporating reactivity, conformational, and molecular fingerprint information.</p>
-    <p class="research-theme__links"><a href="https://doi.org/10.1016/j.compbiomed.2023.107666">MolCAP</a> <span>·</span> <a href="https://doi.org/10.1038/s41467-025-59634-0">SCAGE</a> <span>·</span> <a href="https://doi.org/10.1016/j.compbiomed.2023.106904">MolFPG</a></p>
+    <p class="research-theme__links"><a href="https://doi.org/10.1038/s41467-025-59634-0">SCAGE</a> <span>·</span> <a href="https://doi.org/10.1016/j.compbiomed.2023.106904">MolFPG</a></p>
   </div>
   <div class="research-theme">
     <h3>Biomedical LLM Post-training</h3>
