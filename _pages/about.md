@@ -16,7 +16,12 @@ My research spans **molecular generation and property-guided optimization**, mol
 
 ## News
 
-- **October 2026:** Three papers were accepted to **NeurIPS 2026 (Posters)**: **[MolSpecFlow](https://openreview.net/forum?id=me61FbJpyy)** on molecular–spectral learning, **[Balanced Fine-Tuning](https://openreview.net/forum?id=p2HWge7bRt)** on biomedical LLM post-training, and **WaveSem** on genomic sequence modeling ([conference listing](https://neurips.cc/Downloads/2026)).
+- **October 2026 · NeurIPS 2026** — Three papers accepted as posters: [MolSpecFlow](https://openreview.net/forum?id=me61FbJpyy) (molecular–spectral learning), [Balanced Fine-Tuning](https://openreview.net/forum?id=p2HWge7bRt) (biomedical LLMs), and [WaveSem](https://neurips.cc/Downloads/2026) (genomic sequence modeling).
+- **July 2026 · Nature Communications** — [Navigating chemical-linguistic sharing space with heterogeneous molecular encoding](https://doi.org/10.1038/s41467-026-74666-w).
+- **May 2026 · Nature Communications** — [Learning the PTM code through a coarse-to-fine mechanism-aware framework](https://doi.org/10.1038/s41467-026-73148-3).
+- **May 2025 · Nature Communications** — [A self-conformation-aware pre-training framework for molecular property prediction with substructure interpretability](https://doi.org/10.1038/s41467-025-59634-0).
+- **January 2025 · Nature Computational Science** — [Decoupled peak property learning for efficient and interpretable electronic circular dichroism spectrum prediction](https://doi.org/10.1038/s43588-024-00757-7).
+- **October 2023 · Nature Communications** — [Retrosynthesis prediction with an interpretable deep-learning framework based on molecular assembly tasks](https://doi.org/10.1038/s41467-023-41698-5).
 
 ## Research Areas
 
