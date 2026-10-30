@@ -9,7 +9,11 @@
   {% if author.avatar and author.avatar != "" %}
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar | escape }}"
+           alt="{{ author.name }} — Google Scholar profile photo"
+           referrerpolicy="no-referrer"
+           onerror="if (!this.dataset.scholarFallback) { this.dataset.scholarFallback='1'; this.src='https://scholar.google.com/citations?view_op=medium_photo&amp;user=wI8WU6kAAAAJ'; } else { this.style.display='none'; this.nextElementSibling.style.display='flex'; }">
+      <div class="author__avatar--initials" style="display:none" aria-label="Yu Wang">YW</div>
     {% else %}
       <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
     {% endif %}
