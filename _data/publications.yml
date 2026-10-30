@@ -26,7 +26,7 @@
   authors: "Zijun Chen, <strong>Yu Wang</strong>, Liuzhenghao Lv, Hao Li, Zongying Lin, Li Yuan, Yonghong Tian"
   venue: "ICASSP 2026"
   url: "https://arxiv.org/abs/2409.07912"
-  featured: false
+  featured: true
 
 - year: 2025
   title: "A self-conformation-aware pre-training framework for molecular property prediction with substructure interpretability"
@@ -47,7 +47,7 @@
   authors: "Chao Pang, <strong>Yu Wang</strong>, Yi Jiang, Ruheng Wang, et al."
   venue: "IEEE Transactions on Neural Networks and Learning Systems 36(8), 14022–14036"
   url: "https://doi.org/10.1109/TNNLS.2024.3506619"
-  featured: false
+  featured: true
 
 - year: 2024
   title: "StructuralDPPIV: a novel deep learning model based on atom structure for predicting dipeptidyl peptidase-IV inhibitory peptides"

@@ -76,3 +76,19 @@
 @media (max-width: 924px) {
   .author__avatar--initials { width: 54px; height: 54px; font-size: 1.0rem; }
 }
+
+
+/* Research highlights: restrained two-column academic presentation. */
+.research-themes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.35rem 1.55rem;
+  margin: 1.25rem 0 1.6rem;
+}
+.research-theme { min-width: 0; padding-bottom: .9rem; border-bottom: 1px solid #e8ebed; }
+.page__content .research-theme h3 { font-size: 1.02rem; line-height: 1.42; margin: 0 0 .45rem; color: #343a3e; }
+.page__content .research-theme p { font-size: .91rem; line-height: 1.63; margin: .4rem 0; }
+.page__content .research-theme__links { font-size: .81rem; color: #68747a; }
+.research-theme__links a { text-decoration: none; }
+.research-theme__links span { padding: 0 .22rem; color: #aab2b7; }
+@media (max-width: 680px) { .research-themes { grid-template-columns: 1fr; gap: .75rem; } }

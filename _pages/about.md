@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yu Wang"
-excerpt: "Research in generative modeling and AI for molecular science."
+excerpt: "Generative molecular design, property optimization, and AI for Science."
 author_profile: true
 redirect_from:
   - /about/
@@ -10,15 +10,34 @@ redirect_from:
 
 ## About Me
 
-I am a Ph.D. student in Artificial Intelligence at the **School of Computer Science, Peking University**, beginning in 2024. My background spans chemistry and computer science, and my research focuses on **AI for Science**, particularly generative modeling, molecular representation learning, and data-driven molecular and spectral analysis.
+I am a Ph.D. student in Artificial Intelligence at the **School of Computer Science, Peking University**, and a Research Intern at **Tencent AI for Life Science Lab**. With interdisciplinary training in chemistry and computer science, I study **generative modeling, molecular design, and AI for Science**.
 
-I have been a Research Intern at the **Tencent AI for Life Science Lab** since July 2025. Previously, I received my master's degree in Software Engineering and bachelor's degree in Chemistry from Shandong University.
+My research spans **molecular generation and property-guided optimization**, molecular property and toxicity prediction, chemical representation learning, interpretable retrosynthesis, and molecular-spectral analysis. I am particularly interested in combining chemical priors and learned representations to support reliable molecular design and structure elucidation.
 
-## Research Interests
+## Research Areas
 
-- **Generative models:** flow matching, diffusion models, and molecular design.
-- **Molecular representation learning:** graph neural networks, chemical language models, and structured molecular data.
-- **AI for Science:** retrosynthesis, molecular and mass-spectral analysis, and biochemical modeling.
+<div class="research-themes">
+  <div class="research-theme">
+    <h3>Generative Molecular Design &amp; Property Optimization</h3>
+    <p>Generative approaches to drug-like molecule design and structural optimization under desired chemical properties, including multiview graph generation and score-based molecular inverse design.</p>
+    <p class="research-theme__links"><a href="https://doi.org/10.1109/TNNLS.2024.3506619">MEDICO · IEEE TNNLS</a> <span>·</span> <a href="https://arxiv.org/abs/2409.07912">OrgMol-Design · ICASSP</a></p>
+  </div>
+  <div class="research-theme">
+    <h3>Molecular Representation &amp; Property Prediction</h3>
+    <p>Chemistry-informed graph representation learning for physicochemical properties and toxicity, incorporating reactivity, conformational, and molecular fingerprint information.</p>
+    <p class="research-theme__links"><a href="https://doi.org/10.1016/j.compbiomed.2023.107666">MolCAP</a> <span>·</span> <a href="https://doi.org/10.1038/s41467-025-59634-0">SCAGE</a> <span>·</span> <a href="https://doi.org/10.1016/j.compbiomed.2023.106904">MolFPG</a></p>
+  </div>
+  <div class="research-theme">
+    <h3>Retrosynthesis &amp; Chemical Reasoning</h3>
+    <p>Interpretable retrosynthetic prediction through structured molecular assembly and chemically meaningful graph-based decision making.</p>
+    <p class="research-theme__links"><a href="https://doi.org/10.1038/s41467-023-41698-5">RetroExplainer · Nature Communications</a></p>
+  </div>
+  <div class="research-theme">
+    <h3>Molecular Spectroscopy &amp; Structure Elucidation</h3>
+    <p>Molecular–spectral generative modeling and physics-informed spectral prediction, spanning tandem mass spectrometry and electronic circular dichroism.</p>
+    <p class="research-theme__links"><a href="https://doi.org/10.64898/2026.01.28.702438">MolSpecFlow · bioRxiv</a> <span>·</span> <a href="https://doi.org/10.1038/s43588-024-00757-7">ECD · Nature Computational Science</a></p>
+  </div>
+</div>
 
 ## Education
 

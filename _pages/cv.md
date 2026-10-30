@@ -7,6 +7,10 @@ redirect_from:
   - /resume/
 ---
 
+## Research Profile
+
+I am a Ph.D. student in Artificial Intelligence at Peking University, with training in both chemistry and computer science. My research covers **generative molecular design and property-guided optimization**, chemistry-informed molecular representation learning, drug property and toxicity prediction, interpretable retrosynthesis, and molecular spectroscopy.
+
 ## Education
 
 - **Peking University**, Ph.D. in Artificial Intelligence, School of Computer Science. September 2024–June 2028 (expected).
@@ -19,7 +23,7 @@ redirect_from:
 
 ## Research Interests
 
-Generative models; molecular representation learning; graph neural networks; large language models for scientific applications; retrosynthesis and molecular-spectral modeling.
+Generative molecular modeling; property-guided drug-like molecule optimization; molecular property and toxicity prediction; chemistry-informed representation learning; retrosynthesis; molecular spectroscopy.
 
 ## Selected Publications
 

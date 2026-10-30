@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yu Wang"
 title_separator          : "-"
 name                     : &name "Yu Wang"
-description              : &description "Research in generative modeling, molecular representation learning and AI for Science"
+description              : &description "Generative molecular design, molecular property optimization, and AI for Science"
 url                      : "https://wangyu-sd.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wangyu-sd/wangyu-sd.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yu Wang"
   avatar           : ""
-  bio              : "Ph.D. Student in Artificial Intelligence, Peking University"
+  bio              : "Ph.D. Student at Peking University · Molecular Generative Modeling & AI for Science"
   location         : "Beijing, China"
   employer         :
   pubmed           :
