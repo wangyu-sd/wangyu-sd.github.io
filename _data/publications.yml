@@ -2,10 +2,26 @@
 # Edit to update all pages. Unpublished projects and manuscripts are excluded.
 - year: 2026
   title: "MolSpecFlow: Modality-Incomplete Molecular--Spectral Learning for MS/MS"
-  authors: "<strong>Yu Wang</strong>, Fan Yang, Kaikun Xu, Li Hao, Li Yuan, Jun Zhu, Jingjie Zhang, et al."
-  venue: "NeurIPS 2026"
+  authors: "<strong>Yu Wang</strong>, Fan Yang, Kaikun Xu, Hao Li, Li Yuan, Jun Zhu, Jingjie Zhang, Zhenchao Tang, Yatao Bian, Cheng Chang, Jianhua Yao"
+  venue: "NeurIPS 2026 (Poster)"
   url: "https://openreview.net/forum?id=me61FbJpyy"
   preprint: "https://doi.org/10.64898/2026.01.28.702438"
+  featured: true
+
+- year: 2026
+  title: "WaveSem: Frequency-Adaptive Tokenization for Disentangling Semantics and Noise in Genomics"
+  authors: "Shou Zhi Chen, Bing He, Zhenchao Tang, Jun Zhu, Minghao Yang, Tianxu Lv, <strong>Yu Wang</strong>, Jiayang Wu, Fang Wang, Yu Zhao, Chenchen Qin, Jianhua Yao"
+  venue: "NeurIPS 2026 (Poster)"
+  url: "https://neurips.cc/Downloads/2026"
+  link_label: "NeurIPS listing"
+  featured: true
+
+- year: 2026
+  title: "Aligning LLMs with Biomedical Knowledge using Balanced Fine-Tuning"
+  authors: "Zhenchao Tang, Fang Wang, Haohuai He, Jiale Zhou, Tianxu Lv, Jun Zhu, Shou Zhi Chen, Minghao Yang, <strong>Yu Wang</strong>, Jiayang Wu, Yidong Song, Yaokun Li, Jiehui Huang, Jun Zhou, Bing He, Jianhua Yao"
+  venue: "NeurIPS 2026 (Poster)"
+  url: "https://openreview.net/forum?id=p2HWge7bRt"
+  preprint: "https://arxiv.org/abs/2511.21075"
   featured: true
 
 - year: 2026

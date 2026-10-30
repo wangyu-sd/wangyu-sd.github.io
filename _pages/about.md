@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yu Wang"
-excerpt: "Generative molecular design, property optimization, and AI for Science."
+excerpt: "Generative molecular modeling, biomedical LLM fine-tuning, genomics, and AI for Science."
 author_profile: true
 redirect_from:
   - /about/
@@ -12,11 +12,11 @@ redirect_from:
 
 I am a Ph.D. student in Artificial Intelligence at the **School of Computer Science, Peking University**, and a Research Intern at **Tencent AI for Life Science Lab**. With interdisciplinary training in chemistry and computer science, I study **generative modeling, molecular design, and AI for Science**.
 
-My research spans **molecular generation and property-guided optimization**, molecular property and toxicity prediction, chemical representation learning, interpretable retrosynthesis, and molecular-spectral analysis. I am particularly interested in combining chemical priors and learned representations to support reliable molecular design and structure elucidation.
+My research spans **molecular generation and property-guided optimization**, molecular property and toxicity prediction, **biomedical LLM post-training and genomic representation learning**, interpretable retrosynthesis, and molecular-spectral analysis. I am particularly interested in combining chemical priors and learned representations to support reliable molecular design and structure elucidation.
 
 ## News
 
-- **October 2026:** Our paper **[MolSpecFlow: Modality-Incomplete Molecular--Spectral Learning for MS/MS](https://openreview.net/forum?id=me61FbJpyy)** was accepted to **NeurIPS 2026**. [Earlier preprint](https://doi.org/10.64898/2026.01.28.702438).
+- **October 2026:** Three papers were accepted to **NeurIPS 2026 (Posters)**: **[MolSpecFlow](https://openreview.net/forum?id=me61FbJpyy)** on molecular–spectral learning, **[Balanced Fine-Tuning](https://openreview.net/forum?id=p2HWge7bRt)** on biomedical LLM post-training, and **WaveSem** on genomic sequence modeling ([conference listing](https://neurips.cc/Downloads/2026)).
 
 ## Research Areas
 
@@ -30,6 +30,16 @@ My research spans **molecular generation and property-guided optimization**, mol
     <h3>Molecular Representation &amp; Property Prediction</h3>
     <p>Chemistry-informed graph representation learning for physicochemical properties and toxicity, incorporating reactivity, conformational, and molecular fingerprint information.</p>
     <p class="research-theme__links"><a href="https://doi.org/10.1016/j.compbiomed.2023.107666">MolCAP</a> <span>·</span> <a href="https://doi.org/10.1038/s41467-025-59634-0">SCAGE</a> <span>·</span> <a href="https://doi.org/10.1016/j.compbiomed.2023.106904">MolFPG</a></p>
+  </div>
+  <div class="research-theme">
+    <h3>Biomedical LLM Post-training</h3>
+    <p>Methods for aligning language models with biomedical knowledge through fine-tuning on sparse, knowledge-intensive scientific data.</p>
+    <p class="research-theme__links"><a href="https://openreview.net/forum?id=p2HWge7bRt">Balanced Fine-Tuning · NeurIPS 2026</a></p>
+  </div>
+  <div class="research-theme">
+    <h3>Genomic Sequence Modeling</h3>
+    <p>Adaptive tokenization and representation learning for genomic foundation models, disentangling biological signals from sequence-level noise.</p>
+    <p class="research-theme__links"><a href="https://neurips.cc/Downloads/2026">WaveSem · NeurIPS 2026</a></p>
   </div>
   <div class="research-theme">
     <h3>Retrosynthesis &amp; Chemical Reasoning</h3>
@@ -61,7 +71,7 @@ My research spans **molecular generation and property-guided optimization**, mol
     <div class="publication-title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
     <div class="publication-authors">{{ paper.authors }}</div>
     <div class="publication-venue">{{ paper.venue | escape }} · {{ paper.year }}</div>
-    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
+    <div class="publication-links"><a href="{{ paper.url | escape }}">{{ paper.link_label | default: "Paper" }}</a>{% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
   </div>
 {% endif %}
 {% endfor %}
