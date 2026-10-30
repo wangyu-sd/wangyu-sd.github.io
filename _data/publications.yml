@@ -51,6 +51,10 @@
   venue: "Nature Communications 16, 4382"
   url: "https://doi.org/10.1038/s41467-025-59634-0"
   featured: true
+  image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-025-59634-0/MediaObjects/41467_2025_59634_Fig1_HTML.png"
+  image_alt: "Figure 1 of SCAGE: molecular conformation-aware pretraining, multitask objectives and fine-tuning for property prediction"
+  image_caption: "Fig. 1 · SCAGE framework"
+  image_source: "https://doi.org/10.1038/s41467-025-59634-0"
 
 - year: 2025
   title: "Decoupled peak property learning for efficient and interpretable electronic circular dichroism spectrum prediction"
@@ -58,6 +62,10 @@
   venue: "Nature Computational Science 5, 234–244"
   url: "https://doi.org/10.1038/s43588-024-00757-7"
   featured: true
+  image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs43588-024-00757-7/MediaObjects/43588_2024_757_Fig1_HTML.png"
+  image_alt: "Figure 1 of ECDFormer: molecular graph encoding, peak property prediction and ECD spectrum rendering"
+  image_caption: "Fig. 1 · ECDFormer framework"
+  image_source: "https://doi.org/10.1038/s43588-024-00757-7"
 
 - year: 2025
   title: "Multiview deep learning-based molecule design and structural optimization accelerates inhibitor discover"
@@ -87,6 +95,10 @@
   url: "https://doi.org/10.1038/s41467-023-41698-5"
   code: "https://github.com/wangyu-sd/RetroExplainer"
   featured: true
+  image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-023-41698-5/MediaObjects/41467_2023_41698_Fig1_HTML.png"
+  image_alt: "Figure 1 of RetroExplainer: molecular graph encoding, multi-task learning, interpretable decisions and retrosynthetic pathway planning"
+  image_caption: "Fig. 1 · RetroExplainer framework"
+  image_source: "https://doi.org/10.1038/s41467-023-41698-5"
 
 - year: 2023
   title: "MolCAP: Molecular Chemical reActivity Pretraining and prompted-finetuning enhanced molecular representation learning"
@@ -95,6 +107,10 @@
   url: "https://doi.org/10.1016/j.compbiomed.2023.107666"
   code: "https://github.com/wangyu-sd/MolCAP"
   featured: true
+  image: "https://raw.githubusercontent.com/wangyu-sd/MolCAP/main/framework.png"
+  image_alt: "MolCAP framework diagram: chemical reactivity pretraining and prompted molecular representation learning"
+  image_caption: "Framework · MolCAP"
+  image_source: "https://github.com/wangyu-sd/MolCAP/blob/main/framework.png"
 
 - year: 2023
   title: "MolFPG: Multi-level fingerprint-based Graph Transformer for accurate and robust drug toxicity prediction"

@@ -72,12 +72,7 @@ My research spans **molecular generation and property-guided optimization**, mol
 
 {% for paper in site.data.publications %}
 {% if paper.featured %}
-<div class="publication-entry">
-    <div class="publication-title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
-    <div class="publication-authors">{{ paper.authors }}</div>
-    <div class="publication-venue">{{ paper.venue | escape }} · {{ paper.year }}</div>
-    <div class="publication-links"><a href="{{ paper.url | escape }}">{{ paper.link_label | default: "Paper" }}</a>{% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
-  </div>
+{% include publication-card.html paper=paper %}
 {% endif %}
 {% endfor %}
 

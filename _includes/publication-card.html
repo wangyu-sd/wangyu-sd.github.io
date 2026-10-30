@@ -1,0 +1,21 @@
+{% assign p = include.paper %}
+<div class="publication-entry{% if p.image %} publication-entry--with-figure{% endif %}">
+  <div class="publication-main">
+    <div class="publication-title"><a href="{{ p.url | escape }}">{{ p.title | escape }}</a></div>
+    <div class="publication-authors">{{ p.authors }}</div>
+    <div class="publication-venue">{{ p.venue | escape }} · {{ p.year }}</div>
+    <div class="publication-links">
+      <a href="{{ p.url | escape }}">{{ p.link_label | default: "Paper" }}</a>
+      {% if p.preprint %}<a href="{{ p.preprint | escape }}">Preprint</a>{% endif %}
+      {% if p.code %}<a href="{{ p.code | escape }}">Code</a>{% endif %}
+    </div>
+  </div>
+  {% if p.image %}
+  <figure class="publication-figure">
+    <a href="{{ p.image | escape }}" target="_blank" rel="noopener noreferrer" aria-label="View the original figure for {{ p.title | escape }}">
+      <img src="{{ p.image | escape }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.publication-figure').style.display='none'">
+    </a>
+    <figcaption><a href="{{ p.image_source | default: p.url | escape }}" target="_blank" rel="noopener noreferrer">{{ p.image_caption | default: "Framework figure" | escape }}</a> <span>· click to enlarge</span></figcaption>
+  </figure>
+  {% endif %}
+</div>
