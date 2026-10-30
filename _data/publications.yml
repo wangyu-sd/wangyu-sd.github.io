@@ -1,10 +1,11 @@
 # Publications curated from Yu Wang's Google Scholar profile and publisher records.
 # Edit to update all pages. Unpublished projects and manuscripts are excluded.
 - year: 2026
-  title: "MolSpecFlow: Mass-Constrained Hybrid Flow Matching for Joint Molecular-Spectral Analysis"
-  authors: "<strong>Yu Wang</strong>, Fan Yang, Kaikun Xu, Li Yuan, Jun Zhu, Jingjie Zhang, et al."
-  venue: "bioRxiv preprint, 2026.01.28.702438"
-  url: "https://doi.org/10.64898/2026.01.28.702438"
+  title: "MolSpecFlow: Modality-Incomplete Molecular--Spectral Learning for MS/MS"
+  authors: "<strong>Yu Wang</strong>, Fan Yang, Kaikun Xu, Li Hao, Li Yuan, Jun Zhu, Jingjie Zhang, et al."
+  venue: "NeurIPS 2026"
+  url: "https://openreview.net/forum?id=me61FbJpyy"
+  preprint: "https://doi.org/10.64898/2026.01.28.702438"
   featured: true
 
 - year: 2026

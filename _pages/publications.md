@@ -17,7 +17,7 @@ This list is based on my [Google Scholar profile](https://scholar.google.com/cit
     <div class="publication-title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
     <div class="publication-authors">{{ paper.authors }}</div>
     <div class="publication-venue">{{ paper.venue | escape }} · {{ paper.year }}</div>
-    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
+    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
   </div>
 {% endfor %}
 

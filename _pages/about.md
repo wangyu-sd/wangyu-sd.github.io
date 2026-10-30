@@ -14,6 +14,10 @@ I am a Ph.D. student in Artificial Intelligence at the **School of Computer Scie
 
 My research spans **molecular generation and property-guided optimization**, molecular property and toxicity prediction, chemical representation learning, interpretable retrosynthesis, and molecular-spectral analysis. I am particularly interested in combining chemical priors and learned representations to support reliable molecular design and structure elucidation.
 
+## News
+
+- **October 2026:** Our paper **[MolSpecFlow: Modality-Incomplete Molecular--Spectral Learning for MS/MS](https://openreview.net/forum?id=me61FbJpyy)** was accepted to **NeurIPS 2026**. [Earlier preprint](https://doi.org/10.64898/2026.01.28.702438).
+
 ## Research Areas
 
 <div class="research-themes">
@@ -35,7 +39,7 @@ My research spans **molecular generation and property-guided optimization**, mol
   <div class="research-theme">
     <h3>Molecular Spectroscopy &amp; Structure Elucidation</h3>
     <p>Molecular–spectral generative modeling and physics-informed spectral prediction, spanning tandem mass spectrometry and electronic circular dichroism.</p>
-    <p class="research-theme__links"><a href="https://doi.org/10.64898/2026.01.28.702438">MolSpecFlow · bioRxiv</a> <span>·</span> <a href="https://doi.org/10.1038/s43588-024-00757-7">ECD · Nature Computational Science</a></p>
+    <p class="research-theme__links"><a href="https://openreview.net/forum?id=me61FbJpyy">MolSpecFlow · NeurIPS 2026</a> <span>·</span> <a href="https://doi.org/10.1038/s43588-024-00757-7">ECD · Nature Computational Science</a></p>
   </div>
 </div>
 
@@ -57,7 +61,7 @@ My research spans **molecular generation and property-guided optimization**, mol
     <div class="publication-title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
     <div class="publication-authors">{{ paper.authors }}</div>
     <div class="publication-venue">{{ paper.venue | escape }} · {{ paper.year }}</div>
-    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
+    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.preprint %}<a href="{{ paper.preprint | escape }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
   </div>
 {% endif %}
 {% endfor %}
