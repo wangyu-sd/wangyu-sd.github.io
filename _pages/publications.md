@@ -5,12 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+This list is based on my [Google Scholar profile](https://scholar.google.com/citations?user=wI8WU6kAAAAJ) and publisher records. Published versions are preferred over duplicate preprints. Citation counts are maintained by Google Scholar.
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% assign previous_year = 0 %}
+{% for paper in site.data.publications %}
+  {% if paper.year != previous_year %}
+    <h2>{{ paper.year }}</h2>
+    {% assign previous_year = paper.year %}
+  {% endif %}
+  <div class="publication-entry">
+    <div class="publication-title"><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></div>
+    <div class="publication-authors">{{ paper.authors }}</div>
+    <div class="publication-venue">{{ paper.venue | escape }} · {{ paper.year }}</div>
+    <div class="publication-links"><a href="{{ paper.url | escape }}">Paper</a>{% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}</div>
+  </div>
 {% endfor %}
+
+*For the most up-to-date record, see [Google Scholar](https://scholar.google.com/citations?user=wI8WU6kAAAAJ).*

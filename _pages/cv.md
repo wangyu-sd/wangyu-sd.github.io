@@ -1,59 +1,32 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /resume/
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+- **Peking University**, Ph.D. in Artificial Intelligence, School of Computer Science. September 2024–June 2028 (expected).
+- **Shandong University**, M.Eng. in Software Engineering (Artificial Intelligence). September 2021–June 2024. Rank: 1/56.
+- **Shandong University**, B.Sc. in Chemistry. September 2017–June 2021. Rank: 6/82.
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+## Research Experience
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Tencent AI for Life Science Lab**, Research Intern. July 2025–present.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Interests
+
+Generative models; molecular representation learning; graph neural networks; large language models for scientific applications; retrosynthesis and molecular-spectral modeling.
+
+## Selected Publications
+
+{% for paper in site.data.publications %}
+{% if paper.featured %}
+- **[{{ paper.title | escape }}]({{ paper.url }})**, {{ paper.venue | escape }} ({{ paper.year }}).
+{% endif %}
+{% endfor %}
+
+[Complete publication list](/publications/) · [Google Scholar](https://scholar.google.com/citations?user=wI8WU6kAAAAJ)

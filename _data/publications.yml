@@ -1,0 +1,101 @@
+# Publications curated from Yu Wang's Google Scholar profile and publisher records.
+# Edit to update all pages. Unpublished projects and manuscripts are excluded.
+- year: 2026
+  title: "MolSpecFlow: Mass-Constrained Hybrid Flow Matching for Joint Molecular-Spectral Analysis"
+  authors: "<strong>Yu Wang</strong>, Fan Yang, Kaikun Xu, Li Yuan, Jun Zhu, Jingjie Zhang, et al."
+  venue: "bioRxiv preprint, 2026.01.28.702438"
+  url: "https://doi.org/10.64898/2026.01.28.702438"
+  featured: true
+
+- year: 2026
+  title: "Learning the PTM code through a coarse-to-fine mechanism-aware framework"
+  authors: "Jingjie Zhang, Hanqun Cao, Zijun Gao, <strong>Yu Wang</strong>, et al."
+  venue: "Nature Communications 17, 6450"
+  url: "https://doi.org/10.1038/s41467-026-73148-3"
+  featured: true
+
+- year: 2026
+  title: "Navigating chemical-linguistic sharing space with heterogeneous molecular encoding"
+  authors: "Liuzhenghao Lv, Hao Li, <strong>Yu Wang</strong>, Zijun Chen, Zhiyuan Yan, et al."
+  venue: "Nature Communications 17, 8511"
+  url: "https://doi.org/10.1038/s41467-026-74666-w"
+  featured: true
+
+- year: 2026
+  title: "Multi-granularity score-based generative framework enables efficient inverse design of complex organics"
+  authors: "Zijun Chen, <strong>Yu Wang</strong>, Liuzhenghao Lv, Hao Li, Zongying Lin, Li Yuan, Yonghong Tian"
+  venue: "ICASSP 2026"
+  url: "https://arxiv.org/abs/2409.07912"
+  featured: false
+
+- year: 2025
+  title: "A self-conformation-aware pre-training framework for molecular property prediction with substructure interpretability"
+  authors: "Jianbo Qiao, Junru Jin, Ding Wang, Saisai Teng, Junyu Zhang, Xuetong Yang, Yuhang Liu, <strong>Yu Wang</strong>, et al."
+  venue: "Nature Communications 16, 4382"
+  url: "https://doi.org/10.1038/s41467-025-59634-0"
+  featured: true
+
+- year: 2025
+  title: "Decoupled peak property learning for efficient and interpretable electronic circular dichroism spectrum prediction"
+  authors: "Hao Li, Da Long, Li Yuan, <strong>Yu Wang</strong>, Yonghong Tian, Xinchang Wang, Fanyang Mo"
+  venue: "Nature Computational Science 5, 234–244"
+  url: "https://doi.org/10.1038/s43588-024-00757-7"
+  featured: true
+
+- year: 2025
+  title: "Multiview deep learning-based molecule design and structural optimization accelerates inhibitor discover"
+  authors: "Chao Pang, <strong>Yu Wang</strong>, Yi Jiang, Ruheng Wang, et al."
+  venue: "IEEE Transactions on Neural Networks and Learning Systems 36(8), 14022–14036"
+  url: "https://doi.org/10.1109/TNNLS.2024.3506619"
+  featured: false
+
+- year: 2024
+  title: "StructuralDPPIV: a novel deep learning model based on atom structure for predicting dipeptidyl peptidase-IV inhibitory peptides"
+  authors: "Ding Wang, Junru Jin, Zhongshen Li, <strong>Yu Wang</strong>, et al."
+  venue: "Bioinformatics 40(2), btae057"
+  url: "https://doi.org/10.1093/bioinformatics/btae057"
+  featured: false
+
+- year: 2024
+  title: "CACPP: A contrastive learning-based Siamese network to identify anticancer peptides based on sequence only"
+  authors: "Xuetong Yang, Junru Jin, Ruheng Wang, Zhongshen Li, <strong>Yu Wang</strong>, Leyi Wei"
+  venue: "Journal of Chemical Information and Modeling 64(7), 2807–2816"
+  url: "https://doi.org/10.1021/acs.jcim.3c00297"
+  featured: false
+
+- year: 2023
+  title: "Retrosynthesis prediction with an interpretable deep-learning framework based on molecular assembly tasks"
+  authors: "<strong>Yu Wang</strong>, Chao Pang, Yuzhe Wang, Junru Jin, Jingjie Zhang, et al."
+  venue: "Nature Communications 14, 6155"
+  url: "https://doi.org/10.1038/s41467-023-41698-5"
+  code: "https://github.com/wangyu-sd/RetroExplainer"
+  featured: true
+
+- year: 2023
+  title: "MolCAP: Molecular Chemical reActivity Pretraining and prompted-finetuning enhanced molecular representation learning"
+  authors: "<strong>Yu Wang</strong>, Jingjie Zhang, Junru Jin, Leyi Wei"
+  venue: "Computers in Biology and Medicine 167, 107666"
+  url: "https://doi.org/10.1016/j.compbiomed.2023.107666"
+  code: "https://github.com/wangyu-sd/MolCAP"
+  featured: true
+
+- year: 2023
+  title: "MolFPG: Multi-level fingerprint-based Graph Transformer for accurate and robust drug toxicity prediction"
+  authors: "Saisai Teng, Chenglin Yin, <strong>Yu Wang</strong>, et al."
+  venue: "Computers in Biology and Medicine 164, 106904"
+  url: "https://doi.org/10.1016/j.compbiomed.2023.106904"
+  featured: false
+
+- year: 2023
+  title: "ExamPle: explainable deep learning framework for the prediction of plant small secreted peptides"
+  authors: "Zhongshen Li, Junru Jin, <strong>Yu Wang</strong>, et al."
+  venue: "Bioinformatics 39(3), btad108"
+  url: "https://doi.org/10.1093/bioinformatics/btad108"
+  featured: false
+
+- year: 2021
+  title: "Learning embedding features based on multisense-scaled attention architecture to improve the predictive performance of anticancer peptides"
+  authors: "Wenjia He, <strong>Yu Wang</strong>, Lizhen Cui, Ran Su, Leyi Wei"
+  venue: "Bioinformatics 37(24), 4684–4693"
+  url: "https://doi.org/10.1093/bioinformatics/btab560"
+  featured: false

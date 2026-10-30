@@ -39,3 +39,40 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Yu Wang academic homepage: restrained, readable styling. */
+.author__avatar--initials {
+  width: 160px;
+  height: 160px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #e6e9eb;
+  background: #f2f4f4;
+  color: #46515a;
+  font-size: 2.35rem;
+  font-family: Georgia, serif;
+  font-weight: 600;
+  letter-spacing: .035em;
+}
+.page__content h2 {
+  margin-top: 1.55em;
+  padding-bottom: .32em;
+  border-bottom: 1px solid #e9ecee;
+}
+.page__content p, .page__content li { line-height: 1.68; }
+.publication-entry {
+  margin: 0 0 1.35em 0;
+  padding: 0 0 1.06em 0;
+  border-bottom: 1px solid #f0f1f2;
+}
+.publication-entry:last-child { border-bottom: 0; }
+.publication-title { font-weight: 650; line-height: 1.48; }
+.publication-authors { margin-top: .28em; font-size: .92em; color: #575c60; }
+.publication-venue { margin-top: .2em; font-size: .91em; color: #777e83; }
+.publication-links { margin-top: .3em; font-size: .86em; }
+.publication-links a { margin-right: .85em; }
+@media (max-width: 924px) {
+  .author__avatar--initials { width: 54px; height: 54px; font-size: 1.0rem; }
+}
